@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("assets/fonts/static/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+
+body {
+  background-color: #141414;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.card {
+  background-color: #1f1f1f;
+  width: 384px;
+  height: 611px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+.card > img {
+  border-radius: 50%;
+  height: 88px;
+  width: 88px;
+  margin-top: 40px;
+}
+
+.cardText {
+  width: 304px;
+  height: 61px;
+  margin: 24px 40px 0px 40px;
+  line-height: 10px;
+}
+
+.cardText > h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.cardText > p {
+  color: #c4f82a;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cardJob {
+  width: 304px;
+  height: 21px;
+  margin: 24px 40px 24px 40px;
+}
+
+.cardJob > p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.cardContainerBtn {
+  width: 304px;
+  height: 289px;
+  margin: 0px 40px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 304px;
+  height: 45px;
+
+  background-color: #333333;
+  border-radius: 8px;
+}
+
+.cardBtn > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cardBtn:hover {
+  cursor: pointer;
+  background-color: #c4f82a;
+  color: #141414;
+}
+
+.cardBtn:hover a {
+  color: #141414;
+}
